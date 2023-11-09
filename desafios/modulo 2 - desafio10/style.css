@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nosifer&family=Oswald:wght@300&display=swap');
+
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+body{
+    background-color: #c5ebd6;
+}
+
+header{
+    font-family: "Bebas Neue", "sans-serif";
+    background-image: linear-gradient(to bottom, #3ddc84, #2fa866, #1a5c37 );
+    min-height: 150px;
+}
+
+h1#cabeçalho{
+ color: white;
+ text-align: center;
+ font-size: 2.5em;
+ font-weight: normal;
+ text-shadow: 1px 2px 6px black;
+ padding-top: 30px;
+}
+
+p#cabeçalho{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 1px 2px 6px black;
+    margin-top: 10px;
+
+}
+
+nav{
+    background-color: #063d1e;
+    padding: 3px;
+    margin-top: 12px;
+}
+
+nav >a{
+    color: white;
+    margin-left: 17px;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px black;
+    font-size: 1.1em;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: #c5ebd669;
+    border-radius: 10px;
+    padding: 3px;
+    transition-duration: 0.3s;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 50px 10px 10px 10px;
+    min-width: 350px;
+    max-width: 1000px;
+}
+
+div.video{
+    background-color: #063d1e;
+    margin: 0px -10px 50px -10px;
+    padding: 20px;
+    padding-bottom: 55.2%;
+
+    position: relative;
+}
+
+div.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+h1#principal{
+    color:  #1a5c37;
+    border-radius: 2px;
+    font-family: "idroid";
+    font-size: 1.8em;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h2{
+    color: #2fa866;
+    background-image: linear-gradient(to right, #b9ffd88e, transparent);
+    border-radius: 2px;
+    font-family: "idroid";
+    font-size: 1.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-indent: 7px; 
+}
+
+p{
+    font-family: "Arial";
+    font-weight: 500;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1em;
+    text-indent: 20px;
+    line-height: 1.4em;
+}
+
+img{width: 100%;}
+
+img#img3{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+
+aside{
+    background-color: #063d1e;
+    padding: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+section{
+    background-color: #90d1adb4;
+    text-align: justify;    
+    border-radius: 15px 15px 10px 10px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.438);
+}
+
+
+section>p{
+margin: 15px;
+padding: 5px;
+
+}
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2fa866;
+    color: white;
+    padding: 15px;
+    margin-top: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+ul{
+    text-align: justify;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: "Bebas Neue", "sans-serif";
+    font-size: 1.3em;
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2714\00A0\00A0";
+}
+
+li >p{
+    display: none;
+    text-align: justify;
+    font-size: 0.8em;
+    margin:0px 0px 0px 90px;
+    padding: 0px;
+}
+
+li:hover p{
+    display: inline;
+    background-color:rgba(104, 110, 116, 0.281);
+    margin-left: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+
+.marcatexto{
+    background-color: #65da9aa2;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.verde{
+    color: #24794a;
+    font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer>p{
+    background-color: #063d1e;
+    color: white;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    font-size: 0.8em;
+}
+
+footer>p>a{
+    text-decoration: none;
+    color: #c5ebd6;
+    font-weight: bold;
+}

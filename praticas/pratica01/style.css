@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left,#8C4F2B, #D8A765);
+}
+
+main{
+    height: 1010px;
+    width: 750px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: antiquewhite;
+    padding: 5px 10px 10px 10px;
+    outline-style: dashed;
+    outline-width: 3px;
+    outline-color: rgb(156, 109, 43);
+}
+
+h1#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.2em;
+    color: rgb(94, 79, 60);
+    font-style: italic;
+    text-shadow: 3px 2px 3px antiquewhite;
+    text-align: center;
+background-color:rgba(255, 255, 255, 0) ;
+    height: 100px;    
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.247);
+    border-radius: 7px;
+    text-shadow: 1px 3px 3px rgb(150, 150, 150);
+}
+
+p{
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 70px;  
+    margin-left: 30px;
+    margin-right: 30px; 
+
+}
+
+.basico{
+    color: rgb(94, 133, 216);
+    text-shadow: 1px 2px 3px rgb(36, 50, 82);
+    font-style: italic;
+}
+
+.intermediario{
+    color: rgb(105, 153, 91);
+    text-shadow: 1px 2px 3px rgb(49, 71, 43);
+    font-style: italic;
+}
+
+.avançado{
+    color: rgb(146, 48, 18);
+    text-shadow: 1px 2px 3px rgb(75, 24, 9);
+    font-style: italic;
+}
+
+div:hover{
+    color: blueviolet;
+    background-color: rgba(204, 204, 29, 0.322);
+}
+
+div>p{
+       display: none;
+}
+
+div:hover>p{
+    display: block;
+}
+
+.div{
+    font-size: 1.5em;
+    font-family: monospace;
+    font-weight: bolder;
+    margin: 1px 1px 1px 1px; 
+}
+
+p#texto-escondido{
+margin: 1px 1px 1px 1px;
+}
+
