@@ -58,13 +58,13 @@ aside#imagem1{
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url(imagens/background001.jpg);
     background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
-    box-shadow: inset 0px 0px 10px black;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.726);
 }
 
 aside >p#pimagem1{
@@ -83,13 +83,14 @@ aside#imagem2{
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url(imagens/background002.jpg);
     background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
-    box-shadow: inset 0px 0px 10px black;
+    text-shadow: 1px 2px 2px black;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.726);
 }
 
 aside >p#pimagem2{
