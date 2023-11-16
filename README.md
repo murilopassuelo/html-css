@@ -5,3 +5,9 @@
 
 <p>• Ou acesse por QR Code ⤵️</p>
 <img src="desafios/modulo 2 - desafio10/qr-code-android.png" alt="android-qr-code"></img>
+
+<a href="https://murilopassuelo.github.io/Projeto-Cordel/" target="_blank">Acesse o desafio "Cordel" por este link.</a>
+
+<p>• Ou acesse por QR Code ⤵️</p>
+
+<img src="desafios/modulo 3 -desafio11/qr-code-cordel.png" alt="cordel-qr-code"></img>
