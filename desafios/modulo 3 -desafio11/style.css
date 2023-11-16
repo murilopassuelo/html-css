@@ -38,7 +38,8 @@ header a:hover{
 }
 
 main{
-    min-width: 700px;
+    min-width: 350px;
+    max-width: 1366px;
 }
 
 p.main{
