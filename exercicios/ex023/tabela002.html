@@ -19,16 +19,22 @@
             margin: auto;
             background-color: white;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+            position: relative;
         }
         
+         thead{
+            position: sticky;
+            top: -1px;
+         }
+
         td{
             border: 1px solid black;
-            padding: 5px;
+            padding: 10px;
         }
         
         th, tfoot{
             border: 1px solid black;
-            padding: 5px;
+            padding: 10px;
             background-color: grey;
             color: white;
         }
@@ -40,17 +46,22 @@
         td#porcentagem{
             text-align: center;
         }
+
+        tbody > tr:nth-child(even){
+            background-color: rgb(204, 204, 204);
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</td>
-                <th>População</td>
-                <th>% da população total</th>
+                <th scope="col">Estado</td>
+                <th scope="col">População</td>
+                <th scope="col">% da população total</th>
             </tr>
         </thead>
         <tbody>
@@ -192,7 +203,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</td>
+                <th scope="row">Total de Habitantes</td>
                 <td class="num"><strong>203 062 512</strong></td>
                 <td id="porcentagem"><strong>100%</strong></td>
             </tr>
