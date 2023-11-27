@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body{
+   background-image: url(pacote-d014/imagens/fundo-madeira.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
