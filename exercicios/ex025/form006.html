@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+
+        <p>
+            <label for="idcor">Selecione a Cor:</label>
+            <input type="color" name="cor" id="idcor" value="#ffa500">
+        </p>
+
+        <p>
+            <label for="idsatisfacao">Nível de satisfação:</label>
+            <input type="range" name="satisfacao" id="idsatisfacao" min="1" max="5" value="2" required>
+        </p>
+
+        <p>
+            <label for="idfoto">Adicione sua foto de perfil:</label>
+            <input type="file" name="foto" id="idfoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
