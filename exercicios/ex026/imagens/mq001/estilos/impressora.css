@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Estilo para impressoras */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+h2{
+    padding: 30px;
+}
+
+menu{
+    display: none;
+}
+
+p#ultimo{
+    margin-bottom: 100px;
+}
+
+article::after{
+content: "Está impressão foi retirada do site  www.file:///C:/Users/User/Documents/Programação/html-css/exercicios/ex026/imagens/mq001/index.html.com";
+}
