@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
 /*  tela em pé/retrato  */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
