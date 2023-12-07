@@ -20,7 +20,7 @@ h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 
@@ -45,6 +45,21 @@ menu a:hover{
 
 body{
     background-color: lightgray;
+}
+
+span#burguer{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    padding: 5px;
+    
+}
+
+span#burguer:hover{
+background-color: white;
+color: black;
+cursor: pointer;
 }
 
 main{
